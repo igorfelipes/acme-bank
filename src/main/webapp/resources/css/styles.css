@@ -1,0 +1,39 @@
+@charset "ISO-8859-1";
+
+.container {
+  width: 15rem;
+  height:10rem;
+}
+
+.input-block {
+	
+  position: relative;
+}
+
+.input-block + .input-block {
+  margin-top: 2.6rem;
+}
+
+.input-block label {
+  width: 100%;
+  font: 700 1.4rem Archivo;
+  color: #696969; 
+}
+
+.input-block input {
+  width: 100%;
+  height: 2.6rem;
+  margin-top: 1.4rem;
+  border: 1px solid var(--color-line-in-white); 
+  border-radius: 0.6rem;
+  outline: 0;
+  padding: 0 1.6rem;
+  background: #f2f2fc;
+  font: 1.4rem Roboto;
+  box-shadow: var(--panel-shadow);
+  color: #696969; 
+}
+
+.input-block input::-webkit-input-placeholder {
+  opacity: 0.5; /*Change the opacity between 0 and 1*/
+}
